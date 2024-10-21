@@ -1,0 +1,40 @@
+body{
+    background-image: url("https://giffiles.alphacoders.com/165/16571.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+h1 {
+    color:aqua;
+    background-color:mintcream;
+}
+
+a{
+    color:black;
+    background-color:lightblue;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: firebrick;
+}
+
+p::first-letter{
+    font-size: 200%;
+    color:aqua;
+}
+
+ul li:hover{
+    color: mediumaquamarine;
+    background-color: white;
+}
+
+ul li::before{
+    content:"🚀";
+}
+
+ul li::after {
+    content:"🚀";
+}
